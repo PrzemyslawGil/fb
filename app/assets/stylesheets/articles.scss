@@ -1,0 +1,97 @@
+
+$navbar-default-bg: #800000;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+#logo {
+  float: centre;
+  font-size: 1.7em;
+  color: #eeeeee;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+
+#articlelogo {
+  float: centre;
+  font-size: 1.2em;
+  color: #eeeeee;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  
+}
+
+.centre{
+  background-image: asset-url('sport.jpg');
+  margin-top: 100px;
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1{
+  color: #800000;
+  text-align: center;
+  margin-bottom: 500px;
+ 
+}
+
+
+.article-meta-details {
+  border-top: 1px solid #800000;
+  margin-top: 20px;
+
+}
+
+.article-actions {
+  border-top: 1px solid #800000;
+  padding-top: 5px;
+}
+
+
+
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body{
+  border-top: 1px solid #800000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.listing{
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.badge {
+  background-color: #800000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+
+
+footer{
+  margin-top: 200px;
+  padding-top: 5px;
+  border-top: 1px solid #800000;
+  color: #800000;
+}
+
+
+
+
+
+
+
